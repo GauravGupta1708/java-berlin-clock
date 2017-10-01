@@ -2,6 +2,10 @@ package com.ubs.opsit.interviews;
 
 public interface TimeConverter {
 
-    String convertTime(String time);
+    /**
+     * @param aTime
+     * @return
+     */
+    String convertTime(String aTime);
 
 }
